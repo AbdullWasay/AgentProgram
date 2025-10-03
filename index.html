@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <title>ISO & Agent Partners</title>
     <style>
         * {
@@ -21,190 +21,37 @@
             line-height: 1.3;
         }
 
-        .container {
-
-            margin-left:50px;
-            margin-right: 150px;
-            padding-top: 50px;
-
-        }
-
-
-        /* Header Section */
-        .header-section {
+        .agree-box {
             display: flex;
-            align-items: flex-start;
-            gap: 40px;
-            margin-bottom: 60px;
+            justify-content: flex-start;
+            margin-top: 15px;
         }
 
-        .header-content {
-            flex: 1;
-        }
-
-        .header-content h1 {
-            margin-top:50px;
-            font-size: 72px;
-            font-weight: 700;
-            color: #000;
-            margin-bottom: 20px;
-            line-height: 1.3.3;
-        }
-
-        .header-content p {
-            font-size: 16px;
-            color: #555;
-               font-family: "Nunito", sans-serif;
-            line-height: 1.3.3;
-        }
-
-        .header-image {
-            flex: 1;
-        }
-
-        .header-image img {
-            width: 100%;
-            height: auto;
-            display: block;
-             border: 6px solid #fff;        /* White border */
-    border-radius: 6px;            /* Slight rounding (optional) */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow for effect */
-        }
-
-        /* Content Section */
-        .content-section {
+        .agree-box label {
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
             display: flex;
-            gap: 40px;
-            margin-bottom: 60px;
-            align-items: flex-start;
+            align-items: center;
+            gap: 8px;
         }
-
-        .content-image {
-            flex: 0 0 550px;
-        }
-
-        .content-image img {
-            width: 100%;
-            height: auto;
-            display: block; 
-            border: 6px solid #fff;        /* White border */
-    border-radius: 6px;            /* Slight rounding (optional) */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow for effect */
-        }
-
-        .content-text {
-            flex: 1;
-        }
-
-        .content-text h2 {
-            font-size: 21px;
-            color: #000;
-            margin-bottom: 20px;
-            
-            line-height: 1.3;
-            letter-spacing: 0.5px;
-   font-family: "Nunito", sans-serif;
-   font-weight: 400;
-            
-        }
-
-        .content-text p {
-            font-size: 18px;
-            color: #555;
-               font-family: "Nunito", sans-serif;
-            margin-bottom: 15px;
-            line-height: 1.3;
-        }
-
-        /* ISO Section */
-        .iso-section {
-            display: flex;
-            gap: 40px;
-            margin-bottom: 10px;
-            align-items: flex-start;
-        }
-
-        .iso-content {
-            flex: 1;
-        }
-
-        .iso-content h2 {
-            font-size: 32px;
-font-weight: 300;
-            color: #000;
-            margin-bottom: 20px;
-        }
-
-        .iso-content p {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 15px;
-               font-family: "Nunito", sans-serif;
-            line-height: 1.3;
-        }
-
-        .iso-content ul {
-            list-style: none;
-               font-family: "Nunito", sans-serif;   
-            margin-top: 20px;
-        }
-
-        .iso-content ul li {
-            font-size: 18px;
-            color: #555;
-            margin-bottom: 8px;
-            line-height: 1.3;
-        }
-
-        .iso-image {
-            flex: 1;
-        }
-
-        .iso-image img {
-            width: 100%;
-            height: auto;
-            display: block;
-            margin-top:85px;
-            margin-bottom:50px;
-             border: 6px solid #fff;        
-    border-radius: 6px;          
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
-        }
-
-.agree-box {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 15px;
-}
-
-.agree-box label {
-    font-size: 14px;
-    color: #333;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 8px; /* space between checkbox and text */
-}
-
 
         .country-select {
-    width: 420px;  /* Adjust width as needed */
-}   
+            width: 420px;
+        }   
 
-        /* Form Section */
         .form-section {
-background-color: #f5f5f5;
+            background-color: #f5f5f5;
             padding: 40px;
-
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         }
 
         .form-section h2 {
-            font-size: 28px;
-            font-weight: 700;
-            color: #033e61;
-            margin-bottom: 30px;
+            font-size: 42px;
+            font-weight: 600;
+            color: #666666;
+            margin-bottom: 40px; 
         }
 
         .form-grid {
@@ -224,9 +71,9 @@ background-color: #f5f5f5;
         }
 
         .form-group label {
-                        font-size: 17px;
+            font-size: 17px;
             color: #666;
-               font-family: "Nunito", sans-serif;
+            font-family: "Nunito", sans-serif;
             margin-bottom: 8px;
         }
 
@@ -238,7 +85,6 @@ background-color: #f5f5f5;
             background-color: #fafafa;
             border-radius: 4px;
             font-size: 14px;
-
             color: #333;
         }
 
@@ -275,7 +121,19 @@ background-color: #f5f5f5;
         }
 
         .submit-btn:hover {
-            background-color: #033e61;
+            background-color: #022d47;
+        }
+
+        .submit-btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .error-message {
+            color: #d32f2f;
+            font-size: 14px;
+            margin-top: 10px;
+            display: none;
         }
 
         @media (max-width: 768px) {
@@ -300,133 +158,61 @@ background-color: #f5f5f5;
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container-form">
+        <div class="form-section">
+            <h2>Become A Match Merchant ISO/Agent</h2>
+            <form id="enrollForm" action="https://formspree.io/f/xldpnknk" method="POST">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="firstName">First Name:*</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
 
-        <div class="header-section">
-            <div class="header-content">
-                <h1>ISO & Agent<br>Partners</h1>
-                <p>We provide our Agents an infrastructure and approach to reduce their operational costs while maximizing their revenue streams.</p>
-            </div>
-            <div class="header-image">
-                <img src="1.png" alt="Business professional working on laptop">
-            </div>
-        </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:*</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
 
+                    <div class="form-group">
+                        <label for="businessName">Business Name:</label>
+                        <input type="text" id="businessName" name="businessName">
+                    </div>
 
-        <div class="content-section">
-            <div class="content-image">
-                <img src="2.png" alt="Team hands stacked together">
-            </div>
-            <div class="content-text">
-                <h2>GROW YOUR BUSINESS AS AN AGENT PARTNER AND TAKE ADVANTAGE OF LIFETIME RESIDUAL INCOME.</h2>
-                <p>Our residual program is designed specifically for experienced sales agents interested in
-having a direct processing relationship that offers the highest residual payout for their
-merchant accounts. It is truly a unique pricing package that enables our agents to gain the
-maximum profitability on their accounts while providing their merchants a cost effective
-solution for all electronic payments. We have also developed a true cost in every revenue
-sharing category.</p>
-                <p><strong>Your relationship with us is a valuable one.</strong></p>
-                <p>You are the best at what you do and we are the very best in the industry. Simply put, we can
-be the perfect addition to your business model. Our services exemplifies the "one stop shop"
-with its banking partners. This means you can write virtually any merchant type with complete
-confidence, knowing we will probably have a home for your Merchants. If we don't, there is
-a high probability no one else will.</p>
-                <p>We are dedicated to providing our agents with the most advanced technology. We provide
-the highest level of service and performance, far more than marketing promises; it is a top
-priority for all levels of our staff and team. We have committed ourselves to be the standard
-by which all others will try to be.</p>
-                <p>Ready to take your business to the next level?</p>
-            </div>
-        </div>
+                    <div class="form-group">
+                        <label for="website">Website:</label>
+                        <input type="text" id="website" name="website">
+                    </div>
 
+                    <div class="form-group">
+                        <label for="email">Email Address:* &nbsp;&nbsp;&nbsp; Note: email must match webpage</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
 
-        <div class="iso-section">
-            <div class="iso-content">
-                <h2>Independent Sales Organizations</h2>
-                <p>When your Merchants are processing you will be absolutely amazed how fast
-your monthly residual income will grow with the peace of mind knowing you
-have absolutely no liability for your merchants. We take all the liability.
-Below are a few points from our program that offers our agents unbeatable
-pricing compared to other leading processing companies.</p>
-                <ul>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:*</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
 
-                    <li>100% Residual Ownership</li>
-                    <li>50/50TRUE Interchange Split!</li>
-                    <li>Lifetime Residuals Splits</li>
-                    <li>Sponsored ISO Registration</li>
-                    <li>Cash Discount Program</li>
-                    <li>Upfront Bonus Programs</li>
-                    <li>Next Day/Same Day Funding</li>
-                </ul>
-            </div>
-            <div class="iso-image">
-                <img src="3.png" alt="Professional woman on phone">
-            </div>
-        </div>
-        </div>
-        
-            <div class="container-form">
+                    <div class="form-group">
+                        <label for="country">In what country is your business located?</label>
+                        <select id="country" name="country" class="country-select" required>
+                            <option value="">--Please choose an option--</option>
+                        </select>
+                    </div>
 
-
-<div class="form-section">
-    <h2>Enroll Today!</h2>
-    <form id="enrollForm">
-        <div class="form-grid">
-
-            <div class="form-group">
-                <label for="firstName">First Name:*</label>
-                <input type="text" id="firstName" required>
-            </div>
-
-            <div class="form-group">
-                <label for="lastName">Last Name:*</label>
-                <input type="text" id="lastName" required>
-            </div>
-
-            <div class="form-group">
-                <label for="businessName">Business Name:</label>
-                <input type="text" id="businessName">
-            </div>
-
-            <div class="form-group">
-                <label for="website">Website:</label>
-                <input type="text" id="website">
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email Address:* &nbsp;&nbsp;&nbsp; Note: email must match webpage</label>
-                <input type="email" id="email" required>
-            </div>
-
-            
-            <div class="form-group">
-                <label for="phone">Phone Number:*</label>
-                <input type="tel" id="phone" required>
-            </div>
-            <div class="form-group" >
-<label for="country">In what country is your business located?</label>
-<select id="country" class="country-select" required>
-  <option value="">--Please choose an option--</option>
-</select>
-</div>
-
-
-           <div class="form-group full-width">
-<label for="terms" style="font-size:18px; color:#033e61; font-weight:bold;">
-  Terms & Conditions:
-</label>
-
-
-
-  <textarea id="terms" readonly style="
-      width:100%;
-      height:100px;
-      overflow-y:scroll;
-      white-space:pre-wrap;
-     font-family: Nunito, sans-serif;
-      font-size:14px;
-      line-height:1;
-  ">
+                    <div class="form-group full-width">
+                        <label for="terms" style="font-size:18px; color:#033e61; font-weight:bold;">
+                            Terms & Conditions:
+                        </label>
+                        <textarea id="terms" name="terms" readonly style="
+                            width:100%;
+                            height:100px;
+                            overflow-y:scroll;
+                            white-space:pre-wrap;
+                            font-family: Nunito, sans-serif;
+                            font-size:14px;
+                            line-height:1.5;
+                        ">
 INDEPENDENT CONTRACTOR AGREEMENT 
 
 This Independent Contractor Agreement ("Agreement") is between Match merchants, Inc. with offices at 115 Broad Street New York, NY ("MM") and the entity and/or individual whose name and address are set forth in the online registration and payment form (hereinafter referred to as "Independent Contractor"). 
@@ -475,7 +261,6 @@ SECTION THREE - PAYMENT OF FEES
 
 3.02. Offset Rights, Security Interests. MM shall have the right of offset against any funds credited to or owing from MM to Independent Contractor for any obligation of Independent Contractor to MM, including, without limitation, obligations of Independent Contractor under this Agreement and any other agreement with MM. This right of offset may be exercised by MM at any time and without notice to Independent Contractor whether or not the obligations of Independent Contractor to MM are then due. 
 MM shall have the right in its sole discretion to purchase Independent Contractor right to be paid residuals and compensation under this Agreement. The purchase price shall be (i) the Multiple multiplied times (ii) the average monthly residuals paid to Independent Contractor as measured over the past three (3) months. The Multiple for any buy out is five (5) months earnings. 
-
 SECTION FOUR - TERM AND TERMINATION 
 
 4.01. Term. The initial term of this Agreement shall be for a period of three (3) years, commencing on the date first set forth below. This Agreement shall thereafter be automatically renewed for additional terms of one (1) year each unless either party notifies the other no later than thirty (30) days prior to the end of the current term that it does not wish to renew this Agreement. 
@@ -563,86 +348,86 @@ Independent Contractor shall be paid fifty percent (50%) of the net revenue coll
 FINAL ACCEPTANCE 
 
 By taking the affirmative step of purchasing of this product, service, or membership, you, the Independent Contractor, attest that you have fully read, understand, and accept the terms of this Independent Contractor Agreement, and warrant to MM that said affirmative digital acceptance shall be deemed to be the same as if you had affixed your signature to this Agreement.    </textarea>
-           
-</div>
+      </textarea>
+                    </div>
+                </div>
 
+                <!-- I Agree checkbox -->
+                <div class="form-group full-width agree-box">
+                    <label>
+                        <input type="checkbox" id="agree" name="agree" value="yes" required>
+                        I agree to the terms and conditions*
+                    </label>
+                </div>
+
+                <p class="error-message" id="errorMessage">Please agree to the terms and conditions before submitting.</p>
+
+                <button type="submit" class="submit-btn">Become an Agent</button>
+            </form>
         </div>
-<!-- I Agree checkbox -->
-<div class="form-group full-width agree-box">
-    <label>
-        <input type="checkbox" id="agree" required>
-        I agree 
-    </label>
-</div>
-
-        <button type="submit" class="submit-btn">Become an Agent</button>
-    </form>
-</div>
-
     </div>
 
     <script>
-         const countries = [
-    "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", 
-    "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", 
-    "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", 
-    "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia", 
-    "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", 
-    "Comoros", "Congo (Congo-Brazzaville)", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czechia", 
-    "Democratic Republic of the Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", 
-    "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", 
-    "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", 
-    "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Holy See", 
-    "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", 
-    "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan", 
-    "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", 
-    "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", 
-    "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", 
-    "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", 
-    "Nicaragua", "Niger", "Nigeria", "North Korea", "North Macedonia", "Norway", "Oman", "Pakistan", 
-    "Palau", "Palestine State", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", 
-    "Poland", "Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", 
-    "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", 
-    "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", 
-    "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", 
-    "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Tajikistan", "Tanzania", 
-    "Thailand", "Timor-Leste", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", 
-    "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", 
-    "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"
-  ];
+        const countries = [
+            "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Antigua and Barbuda", "Argentina", 
+            "Armenia", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", 
+            "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia and Herzegovina", 
+            "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia", 
+            "Cameroon", "Canada", "Central African Republic", "Chad", "Chile", "China", "Colombia", 
+            "Comoros", "Congo (Congo-Brazzaville)", "Costa Rica", "Croatia", "Cuba", "Cyprus", "Czechia", 
+            "Democratic Republic of the Congo", "Denmark", "Djibouti", "Dominica", "Dominican Republic", 
+            "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", 
+            "Ethiopia", "Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", 
+            "Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Holy See", 
+            "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel", 
+            "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan", 
+            "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", 
+            "Luxembourg", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", 
+            "Mauritania", "Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", 
+            "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal", "Netherlands", "New Zealand", 
+            "Nicaragua", "Niger", "Nigeria", "North Korea", "North Macedonia", "Norway", "Oman", "Pakistan", 
+            "Palau", "Palestine State", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", 
+            "Poland", "Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Saint Kitts and Nevis", 
+            "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", 
+            "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", 
+            "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Korea", "South Sudan", "Spain", 
+            "Sri Lanka", "Sudan", "Suriname", "Sweden", "Switzerland", "Syria", "Tajikistan", "Tanzania", 
+            "Thailand", "Timor-Leste", "Togo", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", 
+            "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", 
+            "United States", "Uruguay", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe"
+        ];
 
-  const select = document.getElementById("country");
+        const select = document.getElementById("country");
 
-  countries.forEach(country => {
-    const option = document.createElement("option");
-    option.value = country.toLowerCase().replace(/\s+/g, '-');
-    option.textContent = country;
-    select.appendChild(option);
-  });
+        countries.forEach(country => {
+            const option = document.createElement("option");
+            option.value = country;
+            option.textContent = country;
+            select.appendChild(option);
+        });
 
+        // Form validation to ensure terms are agreed before submission
         document.getElementById('enrollForm').addEventListener('submit', function(e) {
-            e.preventDefault();
+            const agreeCheckbox = document.getElementById('agree');
+            const errorMessage = document.getElementById('errorMessage');
             
-            // Get form values
-            const formData = {
-                firstName: document.getElementById('firstName').value,
-                lastName: document.getElementById('lastName').value,
-                businessName: document.getElementById('businessName').value,
-                website: document.getElementById('website').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value,
-                country: document.getElementById('country').value,
-                terms: document.getElementById('terms').value
-            };
+            if (!agreeCheckbox.checked) {
+                e.preventDefault();
+                errorMessage.style.display = 'block';
+                agreeCheckbox.focus();
+                return false;
+            }
             
-            // Log form data (in production, you would send this to a server)
-            console.log('Form submitted:', formData);
-            
-            // Show success message
-            alert('Thank you for your interest! We will contact you soon.');
-            
-            // Reset form
-            this.reset();
+            errorMessage.style.display = 'none';
+            // Form will submit to Formspree
+        });
+
+        // Hide error message when checkbox is checked
+        document.getElementById('agree').addEventListener('change', function() {
+            const errorMessage = document.getElementById('errorMessage');
+            if (this.checked) {
+                errorMessage.style.display = 'none';
+            }
         });
     </script>
 </body>
